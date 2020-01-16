@@ -2,30 +2,151 @@
 
 
 body{ font-family: 'EB Garamond', serif; font-size: 18px;}
-nav{ display: none; }
 .strong{ font-weight: 600; }
 .strong-i{ font-weight: 500; font-style: italic; }
-.hidden > nav{ margin-top: 30px; }
+#nav > .navLinks{
+  margin-top: 60px;
+}
 .navLinks > a{
   display: block;
-  font-size: 5em;
+  font-size: 3em;
   padding: 25px 45px 35px 40px;
   text-decoration: none;
   color: #000000;
 }
-.menuIcn{
+a > .menuIcn{
+  padding-top: 30px;
   max-width: 5%;
   position: absolute;
   right: 40px;
   top: 20px;
 }
-.letter{
-  margin: 100px 70px 80px 30px;
+a > .menuIcnX{
+  transform: rotate(45deg);
+  padding-top: 30px;
+  max-width: 5%;
+  position: absolute;
+  right: 40px;
+  top: 20px;
 }
+.letter{ margin: 100px 70px 80px 30px; }
 .abstract-p{ margin-bottom: 50px; }
 .signature{ margin-top: 45px; }
 .signature > img{ 
   max-width: 40%; 
   margin-left: 15px; 
   margin-top: -10px; 
+}
+
+@media only screen and (width: 768px){
+  body{font-size: 25px;}
+  .letter{ margin: 200px 100px 300px 75px; }
+  .navLinks > a{
+    display: block;
+    font-size: 5em;
+    padding: 25px 45px 35px 40px;
+    text-decoration: none;
+    color: #000000;
+  }
+  a > .menuIcn{
+    padding-top: 50px;
+    max-width: 5%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  a > .menuIcnX{
+    transform: rotate(45deg);
+    padding-top: 50px;
+    max-width: 5%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+}
+
+@media only screen and (width: 1024px){
+  body{font-size: 25px;}
+  .letter{ margin: 200px 100px 300px 75px; }
+  .navLinks > a{
+    display: block;
+    font-size: 8em;
+    padding: 25px 45px 35px 40px;
+    text-decoration: none;
+    color: #000000;
+  }
+  a > .menuIcn{
+    padding-top: 50px;
+    max-width: 3%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  a > .menuIcnX{
+    transform: rotate(45deg);
+    padding-top: 50px;
+    max-width: 3%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+}
+
+@media only screen and (width: 1440px){
+  body{font-size: 35px;}
+  .letter{ margin: 200px 100px 300px 75px; }
+  .navLinks > a{
+    display: block;
+    font-size: 8em;
+    padding: 25px 45px 35px 40px;
+    text-decoration: none;
+    color: #000000;
+  }
+  a > .menuIcn{
+    padding-top: 50px;
+    max-width: 3%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  a > .menuIcnX{
+    transform: rotate(45deg);
+    padding-top: 50px;
+    max-width: 3%;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+}
+
+@media only screen and (width: 2560px){
+  body{font-size: 45px;}
+  .letter{ margin: 500px 430px 500px 400px; }
+  .navLinks > a{
+    display: block;
+    font-size: 4em;
+    padding: 45px 55px 55px 300px;
+    text-decoration: none;
+    color: #000000;
+  }
+  a > .menuIcn{
+    padding-top: 200px;
+    max-width: 3%;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+  }
+  a > .menuIcnX{
+    transform: rotate(45deg);
+    padding-top: 200px;
+    max-width: 3%;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+  }
+  .signature > img{ 
+    max-width: 15%; 
+    margin-left: 15px; 
+    margin-top: -10px; 
+  }
 }
