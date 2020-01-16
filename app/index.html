@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Server•ily Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/stylesheets/main.css">
-    <!-- bootstarap from CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="./assets/javascripts/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+    <title>Adam McKnight</title>
 </head>
 
 <body>
-    <!-- Replace With Your Content!t -->
-    <img src="./assets/images/icon.png" alt="Serverly Icon">
-    <h1>Server&nbsp;•&nbsp;ily is Running</h1>
-    <p>
-        Edit codebase in the <code>"./app"</code> directory.
-    </p>
-    </br>
-    <a class="btnLink hvr-underline-center" target="_blank" href="https://apmcknight.github.io/template/">Read the Docs
-        ➜</a>
+    <a onclick="iconClicked()">
+     <img class="menuIcn" src="./assets/images/plus-solid.svg" alt="+">
+    </a>
+    <nav id="nav">
+        <div class="navLinks">
+            <a href="#">portfolio</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">blog</a>
+        </div>
+    </nav>
+    
+    <section id="top" class="letter">
+        <p class="abstract-p">
+            <span class="strong">Abstract:</span><br>
+            My names Adam, I’m looking for a full-time Web Development job! I think I can effectively do the job. Read
+            more below...
+        </p>
 
-    <!-- BOOTSTRAP — jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+        <p class="strong-i">Hey There –</p>
+        
+        <p>
+            I’m Adam McKnight a Software Engineer with a focus on front-end web development. My passion for computers
+            started when I was a little kid, and the rest, well is history.
+        </p>
+
+        <p>
+            In 2013 I started volunteering at my Church recording and editing videos, which over the years led to
+            designing graphics. This urge to be creative then led to me taking a pivotal step, by attending Butler Tech,
+            D. Russel Lee during my Junior and Senior years of High School. In 2016, I graduated with both High School
+            Credentials and a Certificate of Digital Media.
+        </p>
+            After graduating High School I took the normal route of applying for colleges. Landing on my local community
+            college as the best option. While attending my first year in 2017, I was introduced to Web Development.
+            Shortly thereafter, I was “hooked”.
+
+        <p>
+            In 2019, 3 years after my “supposed graduation date” and applying for jobs realizing my degree wouldn’t
+            matter – I left college.
+       
+            Since then, I’ve been working with Various Companies on a contract basis like Miami University, CityGate
+            Church.
+
+        <p>
+            Now, I’m actively seeking a full-time Software Engineering position.
+        </p>   
+        
+        <p>
+            <a href="letter.html">You can read more about my Skills Here,</a>
+
+            <br/>
+
+            <a href="work.html"> What I’ve built Here,</a>
+
+            <br/>
+
+            <a href="contact.html">and You can Contact me Here.</a>
+        </p> 
+
+        <div class="signature">
+            <p>Sincerely,</p>
+            <img src="./assets/images/signature.png" alt="">
+            <p>Adam P. McKnight</p>
+        </div>
+        
+    </section>
+
+<script src="./assets/javascripts/main.js"></script>   
 </body>
 
 </html>
