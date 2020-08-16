@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./app -d false"
+    "start": "http-server ./docs -d false"
   },
   "author": "Adam McKnight",
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.12.3"
   },
-  "repository": "https://github.com/apmcknight/template.git"
+  "repository": "https://github.com/apmcknight/apmcknight.git"
 }
