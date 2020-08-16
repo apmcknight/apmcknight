@@ -1,0 +1,34 @@
+<span id="a"> &gt;&#95;</span>
+
+cd ./Blog/Post_List
+open blog.txt
+
+
+<span id="a"> &gt;&#95;</span> Current Status: "<span id="k">Working from Home</span>".
+
+
+
+<span id="h">&#91; Recent Posts &#93;</span>
+
+<strong>1. The tools and things I use</strong>  <a href="/uses">read_post</a>
+<strong>2. How to push to GitHub</strong>  <a href="/uses">read_post</a>
+<strong>3. About Me</strong>  <a href="/uses">read_post</a>
+<strong>4. I'm going back to school</strong>  <a href="/uses">read_post</a>
+
+
+
+
+<span id="h">&#91; Let's Talk &#93;</span>
+
+My email is <a href="mailto: adampmcknight@gmail.com">adampmcknight@gmail.com</a>.
+
+Online Profiles: <a href="https://www.linkedin.com/in/adammcknight">linkedin</a> <a href="https://github.com/apmcknight">github</a>
+
+
+
+<span id="r"> &gt;&#95;  process terminated</span> 
+
+<span id="r">EXIT CODE 200, OK!</span>
+
+
+<span id="a">WAITING FOR INPUT:</span>  <a id="#nav" href="/">./home</a> <a id="#nav" href="/tutorials">./tutorials</a>

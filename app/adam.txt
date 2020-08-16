@@ -1,0 +1,34 @@
+<span id="a"> &gt;&#95;</span>
+
+cd ./Adam/About_Adam
+open adam.txt
+
+
+<span id="a"> &gt;&#95;</span> Current Status: "<span id="k">Working from Home</span>".
+
+Hello, World! I'm Adam McKnight.
+
+A Computer Science & Cybersecurity student at Wright State. I love to tinker, solve complex problems, reverse engineer, and discover how technology works. When I'm not studying or working with tech; You can find me watching FC Cincinnati and Ohio State football games, or spending time with family & friends.
+
+
+<span id="h">&#91; Recent Repos &#93;</span>
+
+ERROR: 'There was an issue with the GitHub API Call'
+
+<a href="/work">open-github</a>
+
+
+<span id="h">&#91; Let's Talk &#93;</span>
+
+My email is <a href="mailto: adampmcknight@gmail.com">adampmcknight@gmail.com</a>.
+
+Online Profiles: <a href="https://www.linkedin.com/in/adammcknight">linkedin</a> <a href="https://github.com/apmcknight">github</a>
+
+
+
+<span id="r"> &gt;&#95;  process terminated</span> 
+
+<span id="r">EXIT CODE 200, OK!</span>
+
+
+<span id="a">WAITING FOR INPUT:</span>  <a id="#nav" href="/blog">./blog</a> <a id="#nav" href="/tutorials">./tutorials</a>
